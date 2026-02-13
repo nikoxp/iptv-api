@@ -50,6 +50,6 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           # 如果你的 Dockerfile 不在根目录，请取消下行注释并修改路径
-
           file: ./Dockerfile
+
 
